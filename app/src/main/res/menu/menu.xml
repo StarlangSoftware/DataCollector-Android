@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <item
+       android:id="@+id/backward"
+       android:orderInCategory="3"
+       android:icon="@drawable/backward"
+       android:title="@string/backward"
+       app:showAsAction="ifRoom"/>
+   <item
+       android:id="@+id/forward"
+       android:orderInCategory="4"
+       android:icon="@drawable/forward"
+       android:title="@string/forward"
+       app:showAsAction="ifRoom"/>
+   <item
+       android:id="@+id/itemProject"
+       android:title="@string/project">
+      <menu>
+         <item
+             android:id="@+id/itemOpen"
+             android:title="@string/open" />
+         <item
+             android:id="@+id/itemOpenDirectory"
+             android:title="@string/openDirectory" />
+      </menu>
+   </item>
+   <item
+       android:id="@+id/typeFace"
+       android:title="@string/typeFace">
+      <menu>
+         <item
+             android:id="@+id/normalFace"
+             android:title="@string/normal" />
+         <item
+             android:id="@+id/monospace"
+             android:title="@string/monospace" />
+         <item
+             android:id="@+id/serif"
+             android:title="@string/serif" />
+         <item
+             android:id="@+id/sansSerif"
+             android:title="@string/sans_serif" />
+      </menu>
+   </item>
+   <item
+       android:id="@+id/fontSize"
+       android:title="@string/font_size">
+      <menu>
+         <item
+             android:id="@+id/fontxs"
+             android:title="@string/xs" />
+         <item
+             android:id="@+id/fonts"
+             android:title="@string/s" />
+         <item
+             android:id="@+id/fontm"
+             android:title="@string/m" />
+         <item
+             android:id="@+id/fontl"
+             android:title="@string/l" />
+         <item
+             android:id="@+id/fontxl"
+             android:title="@string/xl" />
+      </menu>
+   </item>
+</menu>

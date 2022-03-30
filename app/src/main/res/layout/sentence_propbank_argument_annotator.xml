@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context=".Sentence.SentencePropbankArgumentActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.starlang.datacollector.Sentence.SentencePropbankArgumentView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toTopOf="@id/infoTop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/infoTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ali topu at"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/infoBottom" />
+
+    <TextView
+        android:id="@+id/infoBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:text="Cümle burada olacak"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</LinearLayout>

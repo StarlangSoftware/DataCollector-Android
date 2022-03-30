@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DataCollector</string>
+    <string name="open">Open File</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="closeAll">Close All</string>
+    <string name="openDirectory">Open Directory</string>
+    <string name="project">Project</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Backward</string>
+    <string name="typeFace">TypeFace</string>
+    <string name="normal">Normal</string>
+    <string name="monospace">MonoSpace</string>
+    <string name="serif">Serif</string>
+    <string name="sans_serif">Sans Serif</string>
+    <string name="font_size">Font Size</string>
+    <string name="xs">Extra Small</string>
+    <string name="s">Small</string>
+    <string name="m">Medium</string>
+    <string name="l">Large</string>
+    <string name="xl">Extra Large</string>
+
+</resources>

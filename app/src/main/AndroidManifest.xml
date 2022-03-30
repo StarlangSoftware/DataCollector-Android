@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.starlang.datacollector">
+
+    <application
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentenceActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".ParseTree.TreeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentenceMorphologicalAnalyzerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".ParseTree.TreeMorphologicalAnalyzerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentenceNERActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".ParseTree.TreeNERActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".ParseTree.TreeTurkishActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentencePosTaggerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentenceSentimentActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".ParseTree.TreeSemanticActivity"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentenceSemanticActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".ParseTree.TreePropbankPredicateActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".ParseTree.TreePropbankArgumentActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentenceFramenetPredicateActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentencePropbankPredicateActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentencePropbankArgumentActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:name=".Sentence.SentenceFramenetElementActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
